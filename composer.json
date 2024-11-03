@@ -1,0 +1,28 @@
+{
+    "name": "empaphy/example",
+    "description": "A short description of the package. Usually this is one line long.",
+    "type": "library",
+    "keywords": ["logging", "events", "database", "redis", "templating"],
+    "homepage": "https://example.empaphy.org/",
+    "license": "MIT",
+    "authors": [
+        { "name": "Alwin Garside", "email": "alwin@garsi.de",  "homepage": "https://yogarine.net" }
+    ],
+    "support": {
+        "issues": "https://github.com/empaphy/example/issues",
+        "forum": "https://github.com/empaphy/example/discussions",
+        "wiki": "https://github.com/empaphy/example/wiki",
+        "source": "https://github.com/empaphy/example",
+        "docs": "https://example.empaphy.org/",
+        "rss": "https://github.com/empaphy/example/releases.atom"
+    },
+    "require": {
+        "php": ">=8.2",
+        "empaphy/polyphill": "^1",
+        "empaphy/filharmonic": "^1"
+    },
+    "require-dev": {
+        "pestphp/pest": "^3",
+        "roave/security-advisories": "dev-latest"
+    }
+}
