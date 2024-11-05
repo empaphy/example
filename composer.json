@@ -17,12 +17,13 @@
         "rss": "https://github.com/empaphy/example/releases.atom"
     },
     "require": {
-        "php": ">=8.2",
+        "php": ">=7.1",
         "empaphy/polyphill": "^1",
         "empaphy/filharmonic": "^1"
     },
     "require-dev": {
         "pestphp/pest": "^3",
+        "phpstan/phpstan": "^1.12",
         "roave/security-advisories": "dev-latest"
     }
 }
