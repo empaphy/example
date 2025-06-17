@@ -2,11 +2,19 @@
     "name": "empaphy/example",
     "description": "A short description of the package. Usually this is one line long.",
     "type": "library",
-    "keywords": ["logging", "events", "database", "redis", "templating"],
+    "keywords": [
+        "example",
+        "examples",
+        "template"
+    ],
     "homepage": "https://example.empaphy.org/",
     "license": "MIT",
     "authors": [
-        { "name": "Alwin Garside", "email": "alwin@garsi.de",  "homepage": "https://yogarine.net" }
+        {
+            "name": "Alwin Garside",
+            "email": "alwin@garsi.de",
+            "homepage": "https://example.empaphy.org"
+        }
     ],
     "support": {
         "issues": "https://github.com/empaphy/example/issues",
@@ -17,13 +25,19 @@
         "rss": "https://github.com/empaphy/example/releases.atom"
     },
     "require": {
-        "php": ">=7.1",
-        "empaphy/polyphill": "^1",
-        "empaphy/filharmonic": "^1"
+        "empaphy/common": "^1@dev"
     },
     "require-dev": {
-        "pestphp/pest": "^3",
-        "phpstan/phpstan": "^1.12",
-        "roave/security-advisories": "dev-latest"
+        "empaphy/dev": "^1@dev"
+    },
+    "autoload": {
+        "psr-4": {
+            "empaphy\\example\\": "src/"
+        }
+    },
+    "config": {
+        "allow-plugins": {
+            "pestphp/pest-plugin": true
+        }
     }
 }

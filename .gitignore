@@ -1,6 +1,9 @@
+/.phpdoc
+/build
 /var
 /vendor
 
+/.php-cs-fixer.cache
 /composer.lock
 
 .DS_Store
