@@ -1,30 +1,25 @@
 {
-    "name": "empaphy/example",
-    "description": "A short description of the package. Usually this is one line long.",
-    "type": "library",
-    "keywords": [
-        "example",
-        "examples",
-        "template"
-    ],
-    "homepage": "https://example.empaphy.org/",
-    "license": "MIT",
-    "authors": [
-        {
-            "name": "Alwin Garside",
-            "email": "alwin@garsi.de",
-            "homepage": "https://example.empaphy.org"
-        }
-    ],
+    "name":        "empaphy/example",
+    "description": "A short description of the package; usually one line long.",
+    "type":        "library",
+    "keywords":    ["example", "examples", "template"],
+    "homepage":    "https://example.empaphy.org/",
+    "license":     "MIT",
+    "authors": [{
+        "name":     "Example Empaphy",
+        "email":    "example@empaphy.org",
+        "homepage": "https://example.empaphy.org"
+    }],
     "support": {
         "issues": "https://github.com/empaphy/example/issues",
-        "forum": "https://github.com/empaphy/example/discussions",
-        "wiki": "https://github.com/empaphy/example/wiki",
+        "forum":  "https://github.com/empaphy/example/discussions",
+        "wiki":   "https://github.com/empaphy/example/wiki",
         "source": "https://github.com/empaphy/example",
-        "docs": "https://example.empaphy.org/",
-        "rss": "https://github.com/empaphy/example/releases.atom"
+        "docs":   "https://example.empaphy.org/",
+        "rss":    "https://github.com/empaphy/example/releases.atom"
     },
     "require": {
+        "php": ">=8.1",
         "empaphy/common": "^1@dev"
     },
     "require-dev": {
@@ -38,6 +33,11 @@
     "config": {
         "allow-plugins": {
             "pestphp/pest-plugin": true
+        }
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-main": "1.x-dev"
         }
     }
 }
