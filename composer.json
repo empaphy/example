@@ -30,10 +30,19 @@
             "empaphy\\example\\": "src/"
         }
     },
+    "autoload-dev": {
+        "psr-4": {
+            "Tests\\": "tests/"
+        }
+    },
     "config": {
         "allow-plugins": {
             "pestphp/pest-plugin": true
         }
+    },
+    "scripts": {
+        "stan": "vendor/bin/phpstan",
+        "test": "vendor/bin/pest"
     },
     "extra": {
         "branch-alias": {

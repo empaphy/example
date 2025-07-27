@@ -1,11 +1,5 @@
 <?php
 
-declare(strict_types=1);
-
-namespace Pest;
-
-use PHPStan\Testing\TypeInferenceTestCase;
-
 /*
 |--------------------------------------------------------------------------
 | Test Case
@@ -17,7 +11,7 @@ use PHPStan\Testing\TypeInferenceTestCase;
 |
 */
 
-pest()->extend(TypeInferenceTestCase::class)->in('TypeInferrence');
+// pest()->extend(TypeInferenceTestCase::class)->in('TypeInferrence');
 
 /*
 |--------------------------------------------------------------------------
