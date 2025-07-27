@@ -3,8 +3,9 @@
 /var
 /vendor
 
-/.php-cs-fixer.cache
 /composer.lock
+/phpstan.neon
+/phpunit.xml
 
 .DS_Store
 .git
