@@ -1,5 +1,7 @@
 <?php
 
+declare(strict_types=1);
+
 $finder = (new PhpCsFixer\Finder())
     ->in([
         __DIR__ . '/src',
@@ -7,8 +9,8 @@ $finder = (new PhpCsFixer\Finder())
     ]);
 
 return (new PhpCsFixer\Config())
+    ->setCacheFile('var/cache/php-cs-fixer/php-cs-fixer.cache')
     ->setFinder($finder)
-    ->setParallelConfig(PhpCsFixer\Runner\Parallel\ParallelConfigFactory::detect())
     ->setRiskyAllowed(true)
     ->setRules([
         '@PER-CS' => true,
