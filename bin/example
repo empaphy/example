@@ -1,0 +1,14 @@
+#!/usr/bin/env php
+<?php
+
+declare(strict_types=1);
+
+use empaphy\example\Example;
+
+require_once __DIR__ . '/../vendor/autoload.php';
+
+$example = new Example('World');
+
+echo $example->hello() . PHP_EOL;
+
+exit(0);
